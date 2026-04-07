@@ -64,6 +64,7 @@ The training results of every categories using YOLOv13 are shown in the table be
 Table 1. Results of all categories using YOLOv13n
 
 ##  Detecting Results
+### Adult Detecting Results
 This study developed a user interface for invoking the YOLOv13 model, enabling control or selection of parameters such as weight files, Intersection over Union (IoU), confidence threshold, and detection targets (including images, videos, and surveillance footage). Figures 5 and 6 present the nine images involved in detection, all of which are drawn from the validation set to prevent data leakage.
 
 | Original | Detection |
@@ -73,6 +74,7 @@ This study developed a user interface for invoking the YOLOv13 model, enabling c
 
 Figure 6 illustrates the test results with a confidence threshold of 70% and an Intersection over Union (IoU) of 70%. All 17 detected samples were correctly identified and classified. Within Aphididae (the small image in the second row, second column), 9 samples were detected out of 9 present, with 2 missed detections. This outcome highlights that, under overlapping conditions, the dataset and model still have room for improvement in small-object detection.
 
+### Larval Detecting Results
 Figures 7 and 8 present the detection results for larval classification within EO19.
 
 | Original | Detection |
