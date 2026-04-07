@@ -55,7 +55,7 @@ This study developed a user interface for invoking the YOLOv13 model, enabling c
 
 | Original | Detection |
 |----------|----------|
-| <img src="https://github.com/user-attachments/assets/e7d05320-2695-4d9d-a892-bb3e4e526b36" width="400"/> | <img src="https://github.com/user-attachments/assets/14ebdc22-ff36-465c-bf4a-7e3243491ca8" width="400"/> |
+| <img src="https://github.com/user-attachments/assets/e7d05320-2695-4d9d-a892-bb3e4e526b36" width="600"/> | <img src="https://github.com/user-attachments/assets/14ebdc22-ff36-465c-bf4a-7e3243491ca8" width="600"/> |
 | Figure 3. Original Image | Figure 4. Detection Image |
 
 
