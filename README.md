@@ -53,10 +53,10 @@ Table 1. Results of all categories using YOLOv13n
 ##  Testing Results
 This study developed a user interface for invoking the YOLOv13 model, enabling control or selection of parameters such as weight files, Intersection over Union (IoU), confidence threshold, and detection targets (including images, videos, and surveillance footage). Figures 3 and 4 present the nine images involved in detection, all of which are drawn from the validation set to prevent data leakage.
 
-| 原始图像 | 检测结果 |
+| Original | Detection |
 |----------|----------|
 | <img src="https://github.com/user-attachments/assets/e7d05320-2695-4d9d-a892-bb3e4e526b36" width="400"/> | <img src="https://github.com/user-attachments/assets/14ebdc22-ff36-465c-bf4a-7e3243491ca8" width="400"/> |
-| Figure 1. Original Image | Figure 2. Detect Image |
+| Figure 3. Original Image | Figure 4. Detection Image |
 
 
 
