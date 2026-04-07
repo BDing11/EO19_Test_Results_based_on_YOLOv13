@@ -56,9 +56,18 @@ This study developed a user interface for invoking the YOLOv13 model, enabling c
 | Original | Detection |
 |----------|----------|
 | <img src="https://github.com/user-attachments/assets/e7d05320-2695-4d9d-a892-bb3e4e526b36" width="600"/> | <img src="https://github.com/user-attachments/assets/14ebdc22-ff36-465c-bf4a-7e3243491ca8" width="600"/> |
-| Figure 3. Original Image | Figure 4. Detection Image |
+| Figure 3. Original Image(Adult) | Figure 4. Detection Image(Adult) |
 
 Figure 4 illustrates the test results with a confidence threshold of 70% and an Intersection over Union (IoU) of 70%. All 17 detected samples were correctly identified and classified. Within Aphididae (the small image in the second row, second column), 9 samples were detected out of 9 present, with 2 missed detections. This outcome highlights that, under overlapping conditions, the dataset and model still have room for improvement in small-object detection.
+
+Figures 5 and 6 present the detection results for larval classification within EO19.
+
+| Original | Detection |
+|----------|----------|
+| <img src="https://github.com/user-attachments/assets/f9dd0dcd-184a-4199-ada7-d4be912bbea0" width="600"/> | <img src="https://github.com/user-attachments/assets/a97b94a1-4dc6-4731-8d8b-7a1f61ae0945" width="600"/> |
+| Figure 5. Original Image(Larva) | Figure 6. Detection Image(Larva) |
+
+
 
 
 
