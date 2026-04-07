@@ -7,6 +7,6 @@ Due to its distinctive architectural design, YOLOv13 reaches the minimum loss in
 | YOLOv12n | YOLOv13n |
 |------------------|------------------|
 | <img width="600" height="300" alt="results_v12" src="https://github.com/user-attachments/assets/8dd3d09e-abd9-4ea0-bb79-3e2fe1783ca9" />|<img width="600" height="300" alt="results_v13" src="https://github.com/user-attachments/assets/38b743b0-9a25-4313-b3ad-6011a2eaec12" />|
-| 图 1. YOLOv13 | 图 2. YOLOv12 |
+| Figure 1. YOLOv13 Results| Figure 2. YOLOv12 Results|
 
-
+Figure 1 illustrates a training result of YOLOv12, where the loss curve approaches a plateau around 100 epochs, indicating that neither underfitting nor overfitting occurred. Figure 2 shows a training result of YOLOv13, in which the loss curve exhibits clear signs of overfitting after exceeding 50 epochs. Consequently, this study sets the number of epochs for YOLOv13 at 55.
