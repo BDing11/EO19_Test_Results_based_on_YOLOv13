@@ -67,6 +67,7 @@ Figures 5 and 6 present the detection results for larval classification within E
 | <img src="https://github.com/user-attachments/assets/f9dd0dcd-184a-4199-ada7-d4be912bbea0" width="600"/> | <img src="https://github.com/user-attachments/assets/a97b94a1-4dc6-4731-8d8b-7a1f61ae0945" width="600"/> |
 | Figure 5. Original Image(Larva) | Figure 6. Detection Image(Larva) |
 
+Due to the high similarity among larvae and the difficulty of obtaining images, we present the detection results at a confidence threshold of 50% (as shown in Figure 6). In these results, the larva of Coccinellidae (small image in the first row, first column) was misclassified as a larva of Nymphalidae, while the larva of Scarabaeidae was misclassified as Noctuidae (third row, second column), reflecting the real-world challenge of high inter-species similarity. The larva of Crambidae was not detected (second row, second column), which is likely due to its strong resemblance to its surrounding environment. The larva of Papilionidae exhibited missed detections at low confidence (third row, third column), which is presumed to result from the limited number of original samples in its category, leading to a long-tail effect.
 
 
 
