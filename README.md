@@ -48,6 +48,6 @@ The training results of YOLOv13 are shown in the table below.
 | Gryllotalpidae | 143 | 163 | 0.957 | 0.987 | 0.985 | 0.799 | 0.662 |
 | Acrididae | 147 | 227 | 0.948 | 0.833 | 0.913 | 0.764 | 0.697 |
 
-**Table 1. Results of all categories using YOLOv13n
+Table 1. Results of all categories using YOLOv13n
 
 # 
