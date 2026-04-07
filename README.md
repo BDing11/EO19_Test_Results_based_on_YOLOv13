@@ -64,23 +64,23 @@ The training results of every categories using YOLOv13 are shown in the table be
 Table 1. Results of all categories using YOLOv13n
 
 ##  Detecting Results
-This study developed a user interface for invoking the YOLOv13 model, enabling control or selection of parameters such as weight files, Intersection over Union (IoU), confidence threshold, and detection targets (including images, videos, and surveillance footage). Figures 3 and 4 present the nine images involved in detection, all of which are drawn from the validation set to prevent data leakage.
+This study developed a user interface for invoking the YOLOv13 model, enabling control or selection of parameters such as weight files, Intersection over Union (IoU), confidence threshold, and detection targets (including images, videos, and surveillance footage). Figures 5 and 6 present the nine images involved in detection, all of which are drawn from the validation set to prevent data leakage.
 
 | Original | Detection |
 |----------|----------|
 | <img src="https://github.com/user-attachments/assets/e7d05320-2695-4d9d-a892-bb3e4e526b36" width="600"/> | <img src="https://github.com/user-attachments/assets/14ebdc22-ff36-465c-bf4a-7e3243491ca8" width="600"/> |
-| Figure 3. Original Image(Adult) | Figure 4. Detection Image(Adult) |
+| Figure 5. Original Image(Adult) | Figure 6. Detection Image(Adult) |
 
-Figure 4 illustrates the test results with a confidence threshold of 70% and an Intersection over Union (IoU) of 70%. All 17 detected samples were correctly identified and classified. Within Aphididae (the small image in the second row, second column), 9 samples were detected out of 9 present, with 2 missed detections. This outcome highlights that, under overlapping conditions, the dataset and model still have room for improvement in small-object detection.
+Figure 6 illustrates the test results with a confidence threshold of 70% and an Intersection over Union (IoU) of 70%. All 17 detected samples were correctly identified and classified. Within Aphididae (the small image in the second row, second column), 9 samples were detected out of 9 present, with 2 missed detections. This outcome highlights that, under overlapping conditions, the dataset and model still have room for improvement in small-object detection.
 
-Figures 5 and 6 present the detection results for larval classification within EO19.
+Figures 7 and 8 present the detection results for larval classification within EO19.
 
 | Original | Detection |
 |----------|----------|
 | <img src="https://github.com/user-attachments/assets/f9dd0dcd-184a-4199-ada7-d4be912bbea0" width="600"/> | <img src="https://github.com/user-attachments/assets/a97b94a1-4dc6-4731-8d8b-7a1f61ae0945" width="600"/> |
-| Figure 5. Original Image(Larva) | Figure 6. Detection Image(Larva) |
+| Figure 7. Original Image(Larva) | Figure 8. Detection Image(Larva) |
 
-Due to the high similarity among larvae and the difficulty of obtaining images, we present the detection results at a confidence threshold of 50% (as shown in Figure 6). In these results, the larva of Coccinellidae (small image in the first row, first column) was misclassified as a larva of Nymphalidae, while the larva of Scarabaeidae was misclassified as Noctuidae (third row, second column), reflecting the real-world challenge of high inter-species similarity. The larva of Crambidae was not detected (second row, second column), which is likely due to its strong resemblance to its surrounding environment. The larva of Papilionidae exhibited missed detections at low confidence (third row, third column), which is presumed to result from the limited number of original samples in its category, leading to a long-tail effect.
+Due to the high similarity among larvae and the difficulty of obtaining images, we present the detection results at a confidence threshold of 50% (as shown in Figure 8). In these results, the larva of Coccinellidae (small image in the first row, first column) was misclassified as a larva of Nymphalidae, while the larva of Scarabaeidae was misclassified as Noctuidae (third row, second column), reflecting the real-world challenge of high inter-species similarity. The larva of Crambidae was not detected (second row, second column), which is likely due to its strong resemblance to its surrounding environment. The larva of Papilionidae exhibited missed detections at low confidence (third row, third column), which is presumed to result from the limited number of original samples in its category, leading to a long-tail effect.
 
 
 
