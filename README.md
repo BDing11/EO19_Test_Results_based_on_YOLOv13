@@ -13,16 +13,19 @@ Due to its distinctive architectural design, YOLOv13 reaches the minimum loss in
 Figure 1 illustrates a training result of YOLOv12, where the loss curve approaches a plateau around 100 epochs, indicating that neither underfitting nor overfitting occurred. Figure 2 shows a training result of YOLOv13, in which the loss curve exhibits clear signs of overfitting after exceeding 50 epochs. Consequently, this study sets the number of epochs for YOLOv13 at 55.
 
 ## Training Results
+### Overview of Training Results
 Figure 3 shows the YOLO v13 training results with 55 epochs, a batch size of 16, and an image size of 640.
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/9d0f6aea-edaa-46bd-a25c-fce2be63d5f2" />
 
 Figure 3. The results of EO19 using YOLOv13n
 
+### PR-curve Analysis
 The Precision–Recall (PR) curve provides a comprehensive view of the trade-off between precision and recall across varying confidence thresholds, thereby serving as a robust indicator of detection performance. The obtained value of 0.869 demonstrates that the model achieves a high level of accuracy in correctly identifying and classifying targets while maintaining satisfactory coverage(as shown in Figure 4). Although this performance reflects strong overall reliability, further optimization may still be required to address challenging cases such as small-object detection or highly overlapping samples.
 <img width="2250" height="1500" alt="PR_curve" src="https://github.com/user-attachments/assets/23e3ee90-62be-408f-b5ac-bb6559cd4ef3" />
 
 Figure 4. The PR-curve of EO19 using YOLOv13n
 
+### Training results for each category
 The training results of every categories using YOLOv13 are shown in the table below.
 | Class | Images | Instances | Box(P) | R | mAP50 | mAP75 | mAP50-95 |
 |-------|---------|------------|--------|---|--------|--------|-----------|
