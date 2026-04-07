@@ -50,4 +50,7 @@ The training results of YOLOv13 are shown in the table below.
 
 Table 1. Results of all categories using YOLOv13n
 
-##  
+##  Testing Results
+
+<img width="576" height="495" alt="image" src="https://github.com/user-attachments/assets/14ebdc22-ff36-465c-bf4a-7e3243491ca8" />
+
