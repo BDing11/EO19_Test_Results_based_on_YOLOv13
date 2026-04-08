@@ -85,7 +85,7 @@ Figures 7 and 8 present the detection results for larval classification within E
 Due to the high similarity among larvae and the difficulty of obtaining images, we present the detection results at a confidence threshold of 50% (as shown in Figure 8). In these results, the larva of Coccinellidae (small image in the first row, first column) was misclassified as a larva of Nymphalidae, while the larva of Scarabaeidae was misclassified as Noctuidae (third row, second column), reflecting the real-world challenge of high inter-species similarity. The larva of Crambidae was not detected (second row, second column), which is likely due to its strong resemblance to its surrounding environment. The larva of Papilionidae exhibited missed detections at low confidence (third row, third column), which is presumed to result from the limited number of original samples in its category, leading to a long-tail effect.
 
 ### Video Detecting Results
-The materials used in this test experiment come from the Chinese video platform Bilibili, created by 'Xiao Li’s Wild Diary,' and authorization for the use of this video has been obtained from the author.
+The materials used in this test experiment come from the Chinese video platform Bilibili, created by 'Xiao Li’s Wild Diary,' and authorization for the use of this video has been obtained from the author. The video materials demonstrate dynamic detection results for two categories—Coccinellidae (lady beetles) and Aphididae (aphids).
 https://1drv.ms/v/c/12d98ca2b40a6fb5/IQBhZ5awWJ2ZRbMdL9-CHnGAAZOQh1dmO9fvwWs8jmYHcag?e=n8h2IT
 
 
